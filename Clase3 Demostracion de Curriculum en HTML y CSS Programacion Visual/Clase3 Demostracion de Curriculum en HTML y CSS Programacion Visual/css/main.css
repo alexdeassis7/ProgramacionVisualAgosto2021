@@ -1,0 +1,100 @@
+/*  -------- LAYOUT -------*/
+body {
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    display: flex;
+    width: 1200px;
+}
+/*------     GENERAL ------*/
+ul{
+    list-style-type: none;
+}
+/*Transformamos los tag h1 y h2 a mayusculas */
+h1,
+ h2{
+     text-transform: uppercase;
+   
+} 
+/*--------------- ASIDE BARRA IZQUIERDA -------*/
+aside {
+    background-color: #647087;
+    margin-right: 20px;
+    padding: 0 10px;
+}
+
+aside *{
+color: white;
+}
+aside h2 {
+    letter-spacing: 5px;
+}
+
+aside section h2:first-child{ /*pseuido clases first child representa el primer elemento entre un grupo de elemento  hermanos */
+    border-bottom: 2px solid white;
+}
+
+#profile-pic{
+    text-align: center;
+}
+
+#profile-pic img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+
+main section > h2 {
+    text-transform: uppercase;
+    letter-spacing:  5px;
+}
+/*estilo de references*/
+.references{
+    display: flex;
+    background-color: #F7DDC3;
+}
+.references article{
+    width:  50%;
+    text-align: center;
+}
+/*tamanio imagenes*/
+.references img{
+    width: 100px;
+}
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dt, dd{
+    line-height: 1.5em;
+    border-top: 1px solid white;
+    flex-basis :40%;
+    margin: 0;
+}
+
+dt:last-of-type,
+dd:last-of-type{
+    border-bottom: 1px solid white;
+}
+dt{
+    font-weight: bolder;
+}
+
+
+meter {
+    display: block;
+    width: 80%;
+}
+/*pseudo elemento css*/
+meter::-webkit-meter-optimum-value{
+    background-color: #EdC0AF;
+}
+
+meter::-webkit-meter-bar{
+    background-color: #FFFFFF;
+}
+
+
+@media(max)

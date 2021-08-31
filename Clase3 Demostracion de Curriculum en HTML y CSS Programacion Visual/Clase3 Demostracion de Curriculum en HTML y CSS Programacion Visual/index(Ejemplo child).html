@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de estilos para toda un pagina </title>
+    <style type="text/css">
+    p:first-child{
+        color: lime;
+        background-color: black;
+        padding: 5px;
+    }
+    ul li {
+        color: blue;
+    }
+    ul li:first-child{
+        color:red;
+        font-weight:  bolder;
+    }
+    </style>
+</head>
+<body>
+    <div>
+    <p>Este texto esta seleccionado</p>
+ 
+        
+        <p>
+            Este texto no esta seleccionado
+        </p>
+ 
+  
+        
+        <p>
+            Este texto no esta seleccionado
+        </p>
+    </div>
+
+
+    <ul>
+        <li>objeto 1</li>
+        <li>objeto 2</li>
+        <li>objeto 3
+            <ul>
+                <li>objeto 3.1</li>
+                <li>objeto 3.2</li>
+                <li>objeto 3.3</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

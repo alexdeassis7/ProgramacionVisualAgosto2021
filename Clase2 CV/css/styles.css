@@ -1,0 +1,248 @@
+                                        /* #fondo{
+    background: url("../images/minion.jpg");
+    width: 500px;
+    height: 300px;
+} */
+                                        /* 
+.otroFondo{
+    background: url("../images/minion.jpg");
+} */
+                                        
+                                        .main-container {
+                                            display: flex;
+                                            width: 1200px;
+                                        }
+                                        
+                                        ul {
+                                            list-style-type: none;
+                                        }
+                                        /* transformamos los tags h1 y h2 a mayusculas  */
+                                        
+                                        h1,
+                                        h2 {
+                                            text-transform: uppercase;
+                                        }
+                                        /* barra lateral izquierda aside estilos */
+                                        
+                                        aside {
+                                            background-color: #647087;
+                                            margin-right: 20px;
+                                            padding: 0 10px;
+                                            /*padding establece el espacio de relleno requerido por todos los lados de 
+    un elemento , es el espacio entre el contenido del elemento y su border , no 
+    se permite valores negativo.
+    el padding es un atajo para evitar la asignación de cada lado por separado 
+    (padding-top ,padding-right ,padding-bottom,padding-left)*/
+                                            /*aplica 5% de padding en todos los lados */
+                                            /* padding: 5%;  */
+                                            /*aplica 10px de padding en todos los lados */
+                                            /* padding: 10px; */
+                                            /*arriba y abajo : 10 px de padding ,izquierda y derecha 20px de padding */
+                                            /* padding: 10px 20px;  */
+                                            /*arriba 10 px padding
+    izquierda y derecha 3%
+    abajo 20px
+    */
+                                            /* padding: 10px 3% 20px; */
+                                            /* arriba  1em , 
+    derecha 3px 
+    abajo 30px
+    izquierda 5px */
+                                            /* padding: 1em 3% 20px 5px; */
+                                        }
+                                        /*selecciono TODO (p ,h1 ,h2 ...etc) lo que esta dentro del 
+tag aside y lo pongo en color blanco*/
+                                        
+                                        aside * {
+                                            color: white;
+                                        }
+                                        /*selecciono todos los h2 que estan 
+dentro de el tag "aside" y le damos un 
+espaciado entre sus letras de 5px*/
+                                        
+                                        aside h2 {
+                                            letter-spacing: 5px;
+                                        }
+                                        /*pseudo clases first child  :
+representa el primer elemento entre un grupo de hermanos */
+                                        
+                                        aside section h2:first-child {
+                                            border-bottom: 2px solid white;
+                                        }
+                                        
+                                        #profile-pic {
+                                            text-align: center;
+                                        }
+                                        
+                                        #profile-pic img {
+                                            width: 200px;
+                                            border-radius: 50%;
+                                        }
+                                        /*el simbolo mayor que en css 
+se puede interpretar como : 
+"todos los elementos que son hijos directos de 'main section' "*/
+                                        
+                                        main section>h2 {
+                                            text-transform: uppercase;
+                                            letter-spacing: 5px;
+                                        }
+                                        /*estilos de las referencias */
+                                        
+                                        .references {
+                                            display: flex;
+                                        }
+                                        
+                                        .references img {
+                                            width: 100px;
+                                        }
+                                        
+                                        dl {
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                        }
+                                        
+                                        dt,
+                                        dd {
+                                            border-top: 1px solid white;
+                                            line-height: 1.5cm;
+                                            margin: 0;
+                                            flex-basis: 50%;
+                                        }
+                                        /*para identar : alt + shift + f*/
+                                        
+                                        dt {
+                                            font-weight: bolder;
+                                        }
+                                        /* #fondo{
+    background: url("../images/minion.jpg");
+    width: 500px;
+    height: 300px;
+} */
+                                        /* 
+.otroFondo{
+    background: url("../images/minion.jpg");
+} */
+                                        
+                                        .main-container {
+                                            display: flex;
+                                            width: 1200px;
+                                        }
+                                        
+                                        ul {
+                                            list-style-type: none;
+                                        }
+                                        /* transformamos los tags h1 y h2 a mayusculas  */
+                                        
+                                        h1,
+                                        h2 {
+                                            text-transform: uppercase;
+                                        }
+                                        /* barra lateral izquierda aside estilos */
+                                        
+                                        aside {
+                                            background-color: #647087;
+                                            margin-right: 20px;
+                                            padding: 0 10px;
+                                            /*padding establece el espacio de relleno requerido por todos los lados de 
+    un elemento , es el espacio entre el contenido del elemento y su border , no 
+    se permite valores negativo.
+    el padding es un atajo para evitar la asignación de cada lado por separado 
+    (padding-top ,padding-right ,padding-bottom,padding-left)*/
+                                            /*aplica 5% de padding en todos los lados */
+                                            /* padding: 5%;  */
+                                            /*aplica 10px de padding en todos los lados */
+                                            /* padding: 10px; */
+                                            /*arriba y abajo : 10 px de padding ,izquierda y derecha 20px de padding */
+                                            /* padding: 10px 20px;  */
+                                            /*arriba 10 px padding
+    izquierda y derecha 3%
+    abajo 20px
+    */
+                                            /* padding: 10px 3% 20px; */
+                                            /* arriba  1em , 
+    derecha 3px 
+    abajo 30px
+    izquierda 5px */
+                                            /* padding: 1em 3% 20px 5px; */
+                                        }
+                                        /*selecciono TODO (p ,h1 ,h2 ...etc) lo que esta dentro del 
+tag aside y lo pongo en color blanco*/
+                                        
+                                        aside * {
+                                            color: white;
+                                        }
+                                        /*selecciono todos los h2 que estan 
+dentro de el tag "aside" y le damos un 
+espaciado entre sus letras de 5px*/
+                                        
+                                        aside h2 {
+                                            letter-spacing: 5px;
+                                        }
+                                        /*pseudo clases first child  :
+representa el primer elemento entre un grupo de hermanos */
+                                        
+                                        aside section h2:first-child {
+                                            border-bottom: 2px solid white;
+                                        }
+                                        
+                                        #profile-pic {
+                                            text-align: center;
+                                        }
+                                        
+                                        #profile-pic img {
+                                            width: 200px;
+                                            border-radius: 50%;
+                                        }
+                                        /*el simbolo mayor que en css 
+se puede interpretar como : 
+"todos los elementos que son hijos directos de 'main section' "*/
+                                        
+                                        main section>h2 {
+                                            text-transform: uppercase;
+                                            letter-spacing: 5px;
+                                        }
+                                        /*estilos de las referencias */
+                                        
+                                        .references {
+                                            display: flex;
+                                        }
+                                        
+                                        .references img {
+                                            width: 100px;
+                                        }
+                                        
+                                        dl {
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                        }
+                                        
+                                        dt,
+                                        dd {
+                                            border-top: 1px solid white;
+                                            line-height: 1.5cm;
+                                            margin: 0;
+                                            flex-basis: 50%;
+                                        }
+                                        
+                                        dt {
+                                            font-weight: bolder;
+                                        }
+                                        
+                                        meter {
+                                            display: block;
+                                            width: 70%
+                                        }
+                                        /*pseudo elemento css*/
+                                        
+                                        meter {
+                                            width: 70%
+                                        }
+                                        /*pseudo elemento css*/
+                                        
+                                        meter::-webkit-meter-optimum-value {
+                                            background-color: #b88ba4;
+                                        }
+                                        
+                                        meter::-webkit-meter-bar {
+                                            background-color: #11030a;
+                                        }
